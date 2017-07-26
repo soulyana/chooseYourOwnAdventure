@@ -41,7 +41,7 @@ public class ChooseYourOwnAdventure {
 		System.out.println();
 		
 		// Display prompt and get first decision 
-		System.out.println("You signed up for a social experient at University of Maryland Mansion! "
+		System.out.println("You signed up for a social experiment at University of Maryland Mansion! "
 				+ "You just entered the living room and are looking around for the scientists.  "
 				+ "Would you like to go \"downstairs\" or into the \"kitchen\"? ");
 		decision1 = scan.nextLine();
@@ -93,7 +93,7 @@ public class ChooseYourOwnAdventure {
 		{	
 				// Display second prompt and get second decision
 				System.out.println("Downtairs you see a hallway. At the end of the hallway is the master \"bedroom\"."
-									+ " There is also a \"bathroom\" off the hallway.  Where would you like to go?");
+									+ " There is also another \"hallway\" off to the side.  Where would you like to go?");
 				decision2 = scan.nextLine();
 
 				if (decision2.equals("bedroom")) 
