@@ -2,17 +2,15 @@ Choose Your Own Adventure
 
 •Create an IPO diagram showing input, output, and processing steps
 
-Input	Processing	Output
-customerNumber	Receive customerNumber	
-customerName	Receive customerName	
-salesAmount	Receive salesAmount	
-taxCode	Receive taxCode	
-Determine sales	
-tax based on tax code	
-Multiply salesTax	
-to salesAmount	
-Display heading
-Display customerNumber,
-customerName, salesAmount,
-salesTax, and totalDue
-•What control structures (sequence, selection and repetition) are required?
+| Input      | Processing         | Output                          |
+| ---------- | ------------------ | ------------------------------- |
+| decision 1 | Receive decision 1 |                                 |
+| decision 2 | Receive decision 2 |                                 |
+| decision 3 | Receive decision 3 |                                 |
+|            |                    | Display header                  |
+|            |                    | Display prompt                  |
+|            |                    | Display first decision outcome  |
+|            |                    | Display second prompt           |
+|            |                    | Display second decision outcome |
+|            |                    | Display third prompt            |
+|            |                    | Display third decision outcome  |
